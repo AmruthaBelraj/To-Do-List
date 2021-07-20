@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+header {
+    background-color: #B23850;
+    height: 5em;
+  }
+
+  .head-tag {
+    float: right;
+    margin-top: 20px;
+    margin-right: 55px;
+  }
+
+  .head-tag a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px; 
+  }
+
+  .head-tag i {
+    position: absolute;
+    display: flex;
+    margin-left: -1050px;
+    font-size: 40px;
+    color: white;
+  }
+
+  .head-tag p {
+    padding-left: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+
+  .center {
+    background-color: white;
+  }
+
+  .center p {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  th {
+    text-align: center;
+    background-color: #25274D;
+  }
+
+  tr {
+    text-align: center;
+    background-color: #29648A;
+  }

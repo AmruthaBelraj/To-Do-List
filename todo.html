@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="todo.css">
+    <script src="https://kit.fontawesome.com/f965c56d37.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="head-tag">
+            <a href="#"><i class="fas fa-th-list"><p id="todo">To - Do List</p></i></a>
+            <a href="index.html">Logout</a>
+        </div>
+    </header>
+
+    <div class="center">
+        <p>I made a huge To-Do List for today. I just can't figure out who's going to do it.</p>
+    </div>
+
+    <table class="table table-dark" id="tab">
+        <thead>
+          <tr>
+            <th scope="col">No.</th>
+            <th scope="col">To-Do</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>   
+    </table>
+
+    <script src="todo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <script src="https://kit.fontawesome.com/f965c56d37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>To-Do App</h1>
+
+    <div class="container">
+        <div class="header">
+            <h2>Login</h2>
+        </div>
+        <form class="form" id="form" action="todo.html" onsubmit="return validate()">
+            <div class="form-control">
+                <i class="fas fa-user"></i>
+                <input id="username" type="text" placeholder="Username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <i class="fas fa-key"></i>
+                <input id="password" type="password" placeholder="Password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <button type="submit" id="submit">Login</button>
+        </form>
+    </div>
+
+    <br>
+    <br>
+    
+    <footer>
+        <p>2021<i class="far fa-copyright"></i>AMRUTHA LEKSHMI BELRAJ</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
